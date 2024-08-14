@@ -1,0 +1,254 @@
+*{
+    box-sizing: border-box;
+  }
+  .near-logo{
+    height: 40px;
+    margin: 10px;
+    padding-left: 10px;
+  }
+  #header-container{
+    height: 70px;
+    
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+    border-bottom: 1px solid rgb(240, 240, 241);
+  }
+  .arrow-logo{
+    height: 12px;
+    margin-top: 25px;
+    
+  }
+  #left{
+    width: 250px;
+    
+  }
+  #right{
+    width: 100px ;
+    display: flex;
+    
+  }
+  .language-logo{
+    height: 35px;
+    margin-top: 12px;
+    padding-left: 15px;
+  }
+  
+  h1{
+    font-family: Inter, Lato, "Lucida Grande", Tahoma, sans-serif;
+    font-weight: 900;
+      color: rgb(36, 39, 42);
+      font-size: calc(22px + 8 * ((100vw - 300px) / 1300));
+      overflow-wrap: break-word;
+  }
+  h2{
+    line-height: 150%;
+      margin: 25px 0px;
+      font-size: 16px;
+      color: rgb(114, 114, 122);
+      font-weight: 400;
+      font-family: Inter, Lato, "Lucida Grande", Tahoma, sans-serif;
+      width: 418.67px;
+      letter-spacing: 0.5px;
+  }
+  body, p, h1, h2, h3, h4, h5, h6, button, .button, input, select, textarea {
+    font-family: Inter, Lato, "Lucida Grande", Tahoma, sans-serif;
+  }
+  
+  
+  #body{
+    margin-bottom: 100px;
+  }
+  #body-container{
+    margin-left: auto;
+    padding-left: ;
+  }
+  #main-container{
+    padding: 40px;
+    border: 1px solid rgb(240, 240, 241);
+    width: 512.438px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 16px;
+    margin-top: 40px;
+  }
+  #learn-more{
+    color: rgb(0, 114, 206);
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: Inter, Lato, "Lucida Grande", Tahoma, sans-serif;
+    height: 50px;
+    margin-top: 20px;
+    letter-spacing: 0.5px;
+  }
+  .arrow-right1{
+    height: 10px;
+    margin-left: 6px;
+  }
+  #learn-more-container{
+    border-bottom:  1px solid rgb(0, 114, 206);
+    height: 50px;
+    width: 203.2px;
+    padding-top: 15px;
+  }
+  #learn-more-container:hover{
+    border-bottom:  1px solid rgb(255, 255, 255);
+  }
+  #get-started-container{
+    height: 56px;
+    width: 425px;
+    color: white;
+    background-color: #0072CE;
+    margin-top: 39px;
+    border-radius: 30px;
+    font-family: Inter, Lato, "Lucida Grande", Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+  }
+  .get-started {
+    text-align: center;
+    padding-top: px;
+    width: 425px;
+    align-items: center;
+    display: flex;
+    text-decoration: none;
+    color: white;
+    height: 56px;
+  }
+  .get-started span{
+    margin: auto;
+    padding: ;
+    
+  }
+  #policies{
+    text-align: center;
+    font-family: Inter, Lato, "Lucida Grande", Tahoma, sans-serif;
+    font-size: 12px;
+    color: rgb(114, 114, 122);
+    width: 361.05px;
+    letter-spacing: 0.5px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #policies a:hover{
+    color: #0072CE ;
+  }
+  .terms, .privacy{
+    color: rgb(114, 114, 122);
+    padding-left: px;
+  }
+  #policies-container{
+    align-items: center;
+    margin-top: 30px;
+    
+  }
+  #policies p{
+    margin: 0px;
+  }
+  #policies span{
+    padding-left: px;
+  }
+  #existing-container{
+    text-align: center;
+    margin-top: 30px;
+    color: rgb(114, 114, 122);
+    font-family: Inter, Lato, "Lucida Grande", Tahoma, sans-serif;
+    font-size: 14px;
+    height: 66.67px;
+  }
+  #existing-container p{
+    margin-top: 0px;
+   
+    
+  }
+  #existing-container a{
+    color: rgb(114, 114, 122);
+    height: 50px;
+    margin-top: 25px;
+    
+  }
+  #existing-container a:hover{
+    text-decoration: none;
+  }
+  #footer{
+    height: 102px;
+  }
+  .grey-logo{
+    height: 41.2px;
+  }
+  #footer-tr{
+    padding: px;
+  }
+  #footer-table{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 17px;
+    width: 100%;
+  }
+  .App{
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+  }
+  .td1{
+    width: 125px;
+  }
+  .td2{
+    color: rgb(153, 153, 153);
+    font-family: Inter, Lato, "Lucida Grande", Tahoma, sans-serif;
+    font-size: 13px;
+    margin-left: 20px;
+    width: 288.24px;
+  }
+  
+  .terms, .privacy{
+    color: rgb(153, 153, 153);
+    text-decoration: underline;
+    text-decoration-line: underline;
+    text-decoration-thickness: initial;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+    
+  
+  }
+  #policy{
+    
+  }
+  #td2-container{
+    margin-left: 11px;
+  }
+  #footer-table{
+    background-color: #f8f8f8;
+    height: ;
+  }
+  #td3-container{
+    margin-left: 40px;
+    width: 275px;
+    font-size: 12.5px;
+    font-family: Inter, Lato, "Lucida Grande", Tahoma, sans-serif;
+    color: #24272a
+  }
+  .learn-more{
+    text-decoration-color: rgb(153, 153, 153);
+    color: #0072CE;
+    text-decoration: none;
+  
+  }
+  #td4-container{
+    color: #999999;
+    font-size: 17px;
+    font-family: Inter, Lato, "Lucida Grande", Tahoma, sans-serif;
+    font-weight: bold;
+    width: 200px;
+    padding-left: 38px;
+    padding-bottom: ;
+  }
+  .community{
+    text-decoration: none;
+    color: #0072CE;
+  }
+  #td4-container p{
+    margin: 0px;
+  }
+  

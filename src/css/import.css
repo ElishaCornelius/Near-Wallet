@@ -1,0 +1,153 @@
+#body-container{
+    letter-spacing: 0.04em;
+    font-size: 14px;
+    display: grid;
+    align-items: start;
+    max-width: 100vw;
+}
+
+#body-container .desktop{
+    background-color: rgb(250, 250, 250);
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    column-gap: 1ch;
+    padding: 10px 20px;
+    margin-bottom: 40px;
+  }
+  
+  #body-container .desktop *{
+    grid-row: 1;
+  }
+  
+  #body-container .desktop svg {
+    width: 2.5ch;
+  }
+  
+  #body-child-container{
+    display: grid;
+    justify-self: center;
+    justify-items: center;
+    margin: 0 0 30px 0;
+    padding: 10px 0;
+  }
+  
+  @media (min-width: 768px){
+    #body-child-container{
+      width: 720px;
+    }
+  }
+  
+  @media (min-width: 992px){
+    #body-child-container{
+      width: 920px;
+      padding: 10px 0px;
+    }
+  }
+  
+  @media (min-width: 1200px){
+    #body-child-container{
+      width: 1000px;
+    }
+  }
+  
+  #body-child-container h1{
+    font-size: calc(22px + 8 * ((100vw - 300px) / 1300));
+    margin: 0;
+  }
+  
+  #body-child-container h2{
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 20px;
+    margin-bottom: 0;
+    line-height: 1.5em;
+  }
+  
+  @media (min-width: 992px){
+    #body-child-container h1, #body-child-container h2{
+      max-width: 700px;
+    }
+  }
+  
+  .ia-components-container{
+    display: grid;
+    margin-top: 40px;
+    padding-bottom: 40px;
+    grid-template-columns: auto auto;
+  }
+  
+  @media (max-width: 990px){
+    .ia-components-container{
+      grid-template-columns: auto;
+      row-gap: 1ch;
+    }
+  }
+  
+  .ia-components{
+    border: 3px solid rgb(245, 245, 245);
+    border-radius: 6px;
+    padding: 25px;
+    font-weight: lighter;
+    min-width: 30%;
+  }
+  
+  @media (min-width: 992px){
+    .ia-components{
+      max-width: 420px;
+      margin: 20px;
+    }
+  }
+  
+  @media (min-width: 1220px){
+    .ia-components{
+      max-width: 460px;
+    }
+  }
+  
+  .ia-components-header{
+    display: grid;
+    align-items: center;
+    justify-content: start;
+    column-gap: 1.5ch;
+    font-weight: 500;
+  }
+  
+  .ia-components-header *{
+    grid-row: 1;
+  }
+  
+  .ia-components-header img{
+    width: 5.1ch;
+  }
+  
+  .grey-a-text{
+    color: rgb(74, 79, 84);
+  }
+  
+  .ia-components-body{
+    text-align: left;
+  }
+  
+  .ia-components-body p:first-of-type span{
+    font-weight: 500;
+  }
+  
+  .ia-components-body button{
+    color: white;
+    height: 56px;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: rgb(106, 209, 227);
+    border: 20px solid rgb(106, 209, 227);
+    border-radius: 30px;
+    transition: all 100ms ease 0s;
+    cursor: pointer;
+    outline: none;
+    width: 100%;
+    margin-top: 24px;
+  }
+  
+  .ia-components-body button:focus, .ia-components-body button:hover{
+    opacity: 0.8;
+  }

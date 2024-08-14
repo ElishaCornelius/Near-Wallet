@@ -1,0 +1,225 @@
+*{
+    box-sizing: border-box;
+  }
+  .near-logo{
+    height: 40px;
+    margin: 10px;
+    padding-left: 10px;
+  }
+  #header-container{
+    height: 70px;
+    
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+    border-bottom: 1px solid rgb(240, 240, 241);
+  }
+  .arrow-logo{
+    height: 12px;
+    margin-top: 25px;
+    
+  }
+  #left{
+    width: 250px;
+    
+  }
+  #right{
+    width: 100px ;
+    display: flex;
+    
+  }
+  
+
+  .body{
+    background-image: url("../images/near-background.png");
+    height: 1000px;
+    background-repeat: no-repeat;
+    
+  }
+  .body {
+    margin: 0px;
+  }
+  .p1{
+    font-weight: 900;
+    color: rgb(36, 39, 42);
+    font-size: calc(22px + 8 * ((100vw - 300px) / 1300));
+    overflow-wrap: break-word;
+    font-family: Inter, Lato, "Lucida Grande", Tahoma, sans-serif;
+    font-size: 28px;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+   
+  }
+  .p2{
+    font-size: 20px;
+      font-weight: lighter;
+      color: rgb(39, 39, 41);
+      margin: 0px;
+      font-family: Inter, Lato, "Lucida Grande", Tahoma, sans-serif;
+      line-height: 150%;
+  }
+  .spanned-text{
+    font-weight: bold;
+    font-family: Inter, Lato, "Lucida Grande", Tahoma, sans-serif;
+    font-size: 20px;
+  }
+  .body-container{
+    width: 449.75px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 55px;
+  }
+  #body-links{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 45px;
+    width: 400px;
+    
+    text-align: center;
+    align-items: center;
+    height: auto;
+    padding-left: px;
+    padding-right: 0px;
+    margin-left: 20px;
+  }
+  #body-links p{
+   
+    
+  }
+  #create-account{
+    width: 200px;
+    height: 44.67px;
+    background-color:  #0072CE;
+    padding-top: 10px;
+    margin-bottom: px;
+    border-radius: 90px;
+    color: white;
+    font-family: Inter, Lato, "Lucida Grande", Tahoma, sans-serif;
+    text-decoration: none;
+  }
+  #create-account a{
+    padding-top: 50px;
+  }
+  #import-account{
+    color: rgb(0, 114, 206);
+    text-decoration: none;
+    font-family: Inter, Lato, "Lucida Grande", Tahoma, sans-serif;
+    font-size: 15px;
+  }
+  #footer{
+    height: 102px;
+  }
+  .grey-logo{
+    height: 41.2px;
+  }
+  #footer-tr{
+    padding: px;
+  }
+  #footer-table{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 17px;
+    width: 100%;
+  }
+  .App{
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+  }
+  .td1{
+    width: 125px;
+  }
+  .td2{
+    color: rgb(153, 153, 153);
+    font-family: Inter, Lato, "Lucida Grande", Tahoma, sans-serif;
+    font-size: 13px;
+    margin-left: 20px;
+    width: 288.24px;
+  }
+  
+  .terms, .privacy{
+    color: rgb(153, 153, 153);
+    text-decoration: underline;
+    text-decoration-line: underline;
+    text-decoration-thickness: initial;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+    
+  
+  }
+  #policy{
+    
+  }
+  #td2-container{
+    margin-left: 11px;
+  }
+  #footer-table{
+    background-color: ;
+  }
+  #td3-container{
+    margin-left: 40px;
+    width: 275px;
+    font-size: 12.5px;
+    font-family: Inter, Lato, "Lucida Grande", Tahoma, sans-serif;
+    color: #24272a
+  }
+  .learn-more{
+    text-decoration-color: rgb(153, 153, 153);
+    color: #0072CE;
+    text-decoration: none;
+  
+  }
+  #td4-container{
+    color: #999999;
+    font-size: 17px;
+    font-family: Inter, Lato, "Lucida Grande", Tahoma, sans-serif;
+    font-weight: bold;
+    width: 200px;
+    padding-left: 38px;
+  }
+  .community{
+    text-decoration: none;
+    color: #0072CE;
+  }
+  #td4-container p{
+    margin: 0px;
+  }
+  #import-account:hover{
+    text-decoration: underline;
+    
+  }
+  @media only screen and (max-width: 974.67px) {
+    #near-footer-info{
+      display: none;
+    }
+  }
+  @media only screen and (max-width: 749.33px) {
+   #discord-community{
+    display: none;
+   }
+   #near-footer-logo{
+    
+   }
+   #small-housing{
+    width: 271.24px;
+    
+   }
+   #logo-container{
+    padding-left: 3vw;
+    
+    
+   }
+   #footer{
+    width: 200px;
+    align-items: center;
+    text-align: center;
+    
+   }
+   footer{
+    height: ;
+    
+   }
+  }
